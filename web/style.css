@@ -5,7 +5,7 @@
 /* Global */
 
 body {
-	background: #36393e;
+	background: #1f1f1f;
   margin: 0;
   color: #bfbfbf;
 	font-family: sans-serif;
@@ -35,7 +35,7 @@ h1 {
 	#2f3136;
 	padding: 10px;
 	border-radius: 4px;
-	border-left: solid #20c20e 5px;
+	border-left: solid #00ba7c 5px;
 	font-weight: 100;
 	letter-spacing: 5px;
 }
@@ -43,11 +43,12 @@ h1 {
 h2 {
 	font-size: 1.2rem;
 	margin-top: 1rem;
-	background: #2f3136;
+	background: #1a1a1a;
 	padding: 10px;
 	border-radius: 4px;
-	border-left: solid #20c20e 5px;
-	font-weight: 100;
+	border-left: solid #00ba7c 5px;
+	/* font-weight: 100; */
+	font-weight: bold;
 	letter-spacing: 5px;
 }
 
@@ -57,7 +58,7 @@ h3 {
 	background: #2f3136;
 	padding: 10px;
 	border-radius: 4px;
-	border-left: solid #20c20e 5px;
+	border-left: solid #00ba7c 5px;
 	font-weight: 100;
 	letter-spacing: 5px;
 }
@@ -80,6 +81,14 @@ nav {
 nav a {
 	color: inherit;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	word-wrap: break-word;
+  }
 
 .menu {
 	width: 60vw;
@@ -133,19 +142,19 @@ code {
 }
 
 .warn {
-	color: #ffc107;
+	color: #fd9e16;
 }
 
 .danger {
-	color: #F04747;
+	color: #F04060;
 }
 
 .success {
-	color: #43B581;
+	color: #00ba7c;
 }
 
 .primary {
-	color: #0092db;
+	color: #1d9bf0;
 }
 
 .select {
@@ -430,6 +439,7 @@ textarea {
 	border-radius: 4px;
 	background: #2f3136;
 	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
